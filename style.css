@@ -1,0 +1,116 @@
+*{ 
+    box-sizing: border-box;
+ }
+ 
+ body{
+     background-color: #fafafa;
+     padding: 0;
+     margin: 0;
+     font-family:Arial, Helvetica, sans-serif ;
+     min-height: 100vh;
+     display: flex;
+     align-items: center;
+ }
+ 
+ .container{
+     padding: 25px;
+     max-width: 500px;
+     margin: auto;
+     display: flex;
+ }
+ 
+ .section{
+     padding: 0 15px;
+     flex: 1;
+ }
+ 
+ .direito{
+     border: 2px solid #ccc;
+     padding: 25px 35px 15px;
+     background-color: #ffff;
+     text-align: center;
+     
+ }
+ 
+ .login{
+     background-color: #ffffff;
+     padding: 10px;
+     width: 100%;
+     border-color: 1px solid #cfcfcf;
+     margin-top: 8px;
+     box-shadow: none;
+ }
+ 
+ .direito img{
+     width: 200px;
+     margin-bottom: 25px;
+ }
+ 
+ .button{
+     background-color: #2196f3;
+     width: 100%;
+     padding: 10px;
+     color: #fff;
+     border: none;
+     margin-top: 15px;
+     cursor: pointer;
+ }
+ 
+ .separador{
+     display: flex;
+     align-items: center;
+     margin: 15px 0;
+     opacity: 0.6;
+ } 
+ 
+ .separador hr{
+     margin: 0;
+     flex: 1;
+ }
+ 
+ .titulo{
+     margin: 0 15px;
+ }
+ 
+ .facebook a{
+     color: #2196f3;
+     text-decoration: none;
+     display: block;
+ }
+ 
+ .senhaface{
+     font-size: 12px;
+     margin-top: 25px;
+ 
+ }
+ 
+ .cadastro{
+     border: 2px solid #ccc;
+     padding: 25px;
+     background-color: #ffff;
+     text-align: center;
+     align-items: center;
+     margin-top: 10px;
+ }
+ 
+ .cadastro a{
+     color: #2196f3;
+     text-decoration: none;
+ }
+ 
+ .links-app{
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .links-app div+div{
+     padding-left: 15px;
+     cursor: pointer;
+ }
+ 
+ .entrar-app{
+     text-align: center;
+     padding: 25px;
+ }
+ 
+ 
